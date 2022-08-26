@@ -1,8 +1,8 @@
-import React from 'react'
+import { View } from "react-native"
 
 const AllPlaces = () => {
   return (
-    <div>AllPlaces</div>
+    <View>AllPlaces</View>
   )
 }
 

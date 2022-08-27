@@ -2,7 +2,7 @@ import { FlatList, StyleSheet, Text, View } from "react-native";
 import PlaceItem from "./PlaceItem";
 
 const PlacesList = ({ places }) => {
-  if (places || places.length < 0) {
+  if (!places) {
     return (
       <View style={styles.fallbackContainer}>
         <Text style={styles.fallbackText}>

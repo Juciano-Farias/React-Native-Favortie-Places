@@ -1,8 +1,8 @@
-import { View } from "react-native"
+import PlaceList from '../components/Places/PlacesList'
 
 const AllPlaces = () => {
   return (
-    <View>AllPlaces</View>
+      <PlaceList />
   )
 }
 
